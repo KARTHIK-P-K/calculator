@@ -1,0 +1,42 @@
+body{
+    background-image:linear-gradient(to right,green, rgb(130, 168, 238))
+}
+.container{
+    text-align:center;
+
+}
+.container input{
+    font-size:30px;
+    border-radius:20px;
+    height:40px;
+    border:3px solid black;
+}
+table{
+    margin:auto;
+   
+    
+}
+button{
+    margin: 10px;
+    height: 60px;
+    width: 70px;
+    font-size:25px;
+    background-color:rgb(40, 175, 25);
+    border-radius:20px;
+}
+
+.calculator{
+    display:inline-block;
+    border:2px solid green;
+    border-radius:25px;
+    background-color:rgb(47, 144, 255) ;
+    padding:10px;
+    
+}
+button:hover{
+    background-color:rgb(179, 245, 223);
+    font-size:34px;
+    transition: 2ms 3ms all ease-in-out ;
+    height:50px;
+    width:60px;
+}
